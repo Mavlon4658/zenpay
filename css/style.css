@@ -324,4 +324,268 @@ header .main_container .menu a {
   border-radius: 2px;
   opacity: 0.1;
   background: #FFF;
+}
+
+#your_business .business_wrapper {
+  display: flex;
+  gap: 60px;
+}
+#your_business .business_wrapper .your_business_left img {
+  max-width: 766px;
+  height: 621px;
+}
+#your_business .business_wrapper .your_business_right {
+  margin-top: 60px;
+}
+#your_business .business_wrapper .your_business_right span {
+  padding-left: 28px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #B0F305;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; /* 23px */
+  margin-bottom: 12px;
+}
+#your_business .business_wrapper .your_business_right span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #B0F305;
+  border-radius: 10px;
+}
+#your_business .business_wrapper .your_business_right h2 {
+  max-width: 549px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 60px */
+  margin-bottom: 27px;
+}
+#your_business .business_wrapper .your_business_right p {
+  max-width: 549px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 29.7px */
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+#your_business .business_wrapper .your_business_right .business_btns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#your_business .business_wrapper .your_business_right .business_btns .business_btn {
+  border-radius: 300px;
+  background: var(--gray-18181-b, #18181B);
+  width: 280px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #B0F305;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; /* 23px */
+}
+#your_business .business_wrapper .your_business_right .business_btns .business_btn svg {
+  margin-right: 10px;
+}
+
+#payments {
+  margin-top: 120px;
+}
+#payments .payments_wrapper {
+  padding: 102px 0;
+  border-radius: 30px;
+  background: #18181B;
+  position: relative;
+  display: flex;
+}
+#payments .payments_wrapper .payments_left img {
+  position: absolute;
+  left: -5px;
+  bottom: -70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 864px;
+  height: 648px;
+}
+#payments .payments_wrapper .payments_right {
+  margin-left: auto;
+}
+#payments .payments_wrapper .payments_right span {
+  padding-left: 28px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #B0F305;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; /* 23px */
+  margin-bottom: 12px;
+}
+#payments .payments_wrapper .payments_right span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #B0F305;
+  border-radius: 10px;
+}
+#payments .payments_wrapper .payments_right h2 {
+  max-width: 675px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 60px */
+  margin-bottom: 25px;
+}
+#payments .payments_wrapper .payments_right p {
+  max-width: 675px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 29.7px */
+  opacity: 0.5;
+}
+
+#connect {
+  margin-top: 120px;
+}
+#connect .connect_wrapper {
+  display: flex;
+  gap: 60px;
+}
+#connect .connect_wrapper .connect_left {
+  margin-top: 29px;
+}
+#connect .connect_wrapper .connect_left h2 {
+  max-width: 675px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 60px */
+  margin-bottom: 25px;
+}
+#connect .connect_wrapper .connect_left p {
+  max-width: 675px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 29.7px */
+  opacity: 0.5;
+  margin-bottom: 60px;
+}
+#connect .connect_wrapper .connect_left .connect_btn {
+  width: 360px;
+  height: 60px;
+  color: #0D0D0D;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 27.5px */
+  border-radius: 12px;
+  background: var(--accent-b-0-f-305, #B0F305);
+  box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
+}
+#connect .connect_wrapper .connect_right {
+  display: flex;
+  gap: 30px;
+}
+#connect .connect_wrapper .connect_right .connect_card {
+  padding: 30px;
+  text-align: center;
+  border-radius: 16px;
+  background: var(--gray-18181-b, #18181B);
+}
+#connect .connect_wrapper .connect_right .connect_card img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 30px;
+}
+#connect .connect_wrapper .connect_right .connect_card h2 {
+  max-width: 262px;
+  color: #FFF;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 30px */
+  margin-bottom: 20px;
+}
+#connect .connect_wrapper .connect_right .connect_card p {
+  max-width: 262px;
+  color: #FFF;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+footer {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+footer .footer_wrapper {
+  padding: 40px;
+  border-radius: 30px;
+  background: var(--gray-18181-b, #18181B);
+}
+footer .footer_wrapper .footer_in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer_wrapper .menu {
+  margin-left: 70px;
+  display: flex;
+  gap: 54px;
+}
+footer .footer_wrapper .menu a {
+  color: #FFF;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; /* 23px */
+}
+footer .footer_wrapper .footer_bottom {
+  margin-top: 30px;
+}
+footer .footer_wrapper .footer_bottom p {
+  color: #FFF;
+  text-align: center;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
