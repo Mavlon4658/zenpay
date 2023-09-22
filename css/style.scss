@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: "TT Norms Pro";
+    font-weight: 400;
+    src: url('../fonts/TT\ Norms\ Pro\ Regular.otf'), format("opentype");
+}
+
+@font-face {
+    font-family: "TT Norms Pro";
+    font-weight: 500;
+    src: url('../fonts/TT\ Norms\ Pro\ Medium.otf'), format("opentype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0D0D0D;
+    color: white;
+}
+
+.btn_1 {
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1.5px solid #B0F305;
+    color: #B0F305;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.btn_2 {
+    border-radius: 12px;
+    background: #B0F305;
+    box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
+    padding: 16px 24px;
+    color: #0D0D0D;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    transition: .3s ease all;
+
+    &:hover {
+        background: #7FAE07;
+        box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
+    }
+
+    &:active {
+        border: 1.5px solid #B0F305;
+        background: #7FAE07;
+        box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
+    }
+
+    .btn_bg_1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 36px;
+        width: 26px;
+    }
+
+    .btn_bg_2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 26px;
+        height: 36px;
+    }
+
+    .play {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.main_container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+header {
+    .main_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 60px;
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 54px;
+
+            a {
+                color: #FFF;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 115%;
+            }
+        }
+    }
+}
+
+#home {
+    margin-bottom: 120px;
+
+    .main_container {
+        position: relative;
+    }
+
+    h1 {
+        max-width: 725px;
+        color: #FFF;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 135%;
+        margin-bottom: 48px;
+
+        img {
+            height: 76px;
+            transform: translateY(25px);
+        }
+    }
+
+    p {
+        color: #FFF;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        margin-bottom: 64px;
+        max-width: 725px;
+    }
+
+    .btn_2 {
+        margin-bottom: 64px;
+    }
+
+    .count {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        margin-bottom: 64px;
+
+        .count_item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            
+            span {
+                color: #FFF;
+                font-family: "TT Norms Pro", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                transform: translateY(5px);
+            }
+
+            .text {
+                color: #B0F305;
+                font-family: "TT Norms Pro", sans-serif;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 135%;
+                transform: translateY(0);
+            }
+        }
+
+        .line {
+            border-radius: 2px;
+            opacity: 0.2;
+            background: #FFF;
+            width: 2px;
+            height: 49px;
+        }
+    }
+
+    .next_link {
+        display: flex;
+        align-items: flex-end;
+        gap: 12px;
+
+        a {
+            img {
+                width: 40px;
+                height: 74px;
+            }
+        }
+
+        span {
+            color: #FFF;
+            font-family: "TT Norms Pro", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .home_right_wrapper {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        width: 645px;
+        height: 720px;
+    }
+
+    .home_right {
+        position: relative;
+
+        .home_card_1 {
+            position: absolute;
+            top: 123px;
+            left: 0;
+            width: 307px;
+            height: 353px;
+        }
+        
+        .home_card_2 {
+            position: absolute;
+            left: 0;
+            top: 506px;
+            width: 307px;
+            height: 212px;
+        }
+
+        .home_card_3 {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 307px;
+            height: 353px;
+        }
+
+        .home_card_4 {
+            position: absolute;
+            right: 0;
+            top: 383px;
+            width: 307px;
+            height: 212px;
+        }
+    }
+}
+
+#our_solutions {
+    margin-bottom: 120px;
+
+    .main_container {
+        border-radius: 30px;
+        background: #18181B;
+        position: relative;
+        padding: 0px 60px 60px;
+        overflow: hidden;
+    }
+
+    .bg_1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 230px;
+    }
+
+    .bg_2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 260px;
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 60px;
+        position: relative;
+
+        span {
+            position: relative;
+            color: #FFF;
+            text-align: center;
+            font-family: "TT Norms Pro", sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 125%;
+            padding: 30px 10px;
+            background-color: #0D0D0D;
+
+            img {
+                position: absolute;
+                width: 88px;
+                height: 100%;
+                object-fit: cover;
+                top: 0;
+            }
+
+            .title_bg_1 {
+                left: 0;
+                transform: translateX(-100%);
+            }
+
+            .title_bg_2 {
+                right: 0;
+                transform: translateX(100%);
+            }
+        }
+    }
+
+    .cards {
+        position: relative;
+        display: flex;
+        align-self: stretch;
+        justify-content: space-between;
+
+        .card_item {
+            width: 348px;
+            text-align: center;
+            padding-bottom: 24px;
+
+            img {
+                width: 88px;
+                height: 88px;
+                margin-bottom: 30px;
+            }
+
+            .card_title {
+                color: #FFF;
+                text-align: center;
+                font-family: "Ubuntu",sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 125%;
+                margin-bottom: 20px;
+            }
+
+            .card_description {
+                color: #FFF;
+                text-align: center;
+                font-family: "TT Norms Pro", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .card_line {
+            width: 2px;
+            border-radius: 2px;
+            opacity: 0.1;
+            background: #FFF;
+        }
+    }
+}
