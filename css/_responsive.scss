@@ -1125,6 +1125,17 @@
         }
     }
 
+    footer {
+        .footer_wrapper {
+            .footer_in {
+                .menu {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
     .modal {
         .modal_content {
             width: calc(100% - 36px);

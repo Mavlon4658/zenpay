@@ -1,6 +1,7 @@
 let bars = document.querySelector('.bars');
 let mobile_menu = document.querySelector('.mobile_menu');
 let body = document.querySelector('body');
+let head_link = document.querySelectorAll('header .mobile_menu a[class="link"]');
 
 if (bars) {
     bars.onclick = () => {
@@ -14,6 +15,14 @@ if (bars) {
             body.classList.add('active_body_from_menu');
         }
     }
+    
+    head_link.forEach((item) => {
+        item.onclick = () => {
+            mobile_menu.classList.add('noActive')
+            mobile_menu.classList.remove('active')
+            body.classList.remove('active_body_from_menu');
+        }
+    })
 }
 
 let btn1 = document.querySelectorAll('.open_modal');
