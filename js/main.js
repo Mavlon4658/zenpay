@@ -16,7 +16,7 @@ if (bars) {
     }
 }
 
-let btn1 = document.querySelectorAll('header .btn_1');
+let btn1 = document.querySelectorAll('.open_modal');
 let modal = document.querySelector('.modal');
 let modal_close = document.querySelector('.modal .modal_close');
 
@@ -30,9 +30,11 @@ if (btn1.length) {
         }
     })
 
-    modal.onclick = () => {
+    modal_close.onclick = () => {
         modal.classList.add('noActive');
         modal.classList.remove('active');
         body.classList.remove('modal_active')
     }
 }
+
+AOS.init();
