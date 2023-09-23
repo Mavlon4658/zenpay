@@ -62,12 +62,12 @@ body.modal_active {
   transition: 0.3s ease all;
 }
 .btn_2:hover {
-  background: #7FAE07;
+  background: #9EDB04;
   box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
 }
 .btn_2:active {
   border: 1.5px solid #B0F305;
-  background: #7FAE07;
+  background: #8FC605;
   box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
 }
 .btn_2 .btn_bg_1 {
@@ -137,7 +137,7 @@ header .main_container .menu a {
   transform: translateY(25px);
 }
 #home p {
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   font-family: "TT Norms Pro", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -145,7 +145,6 @@ header .main_container .menu a {
   line-height: 135%;
   margin-bottom: 64px;
   max-width: 725px;
-  opacity: 0.7;
 }
 #home .btn_2 {
   margin-bottom: 64px;
@@ -387,13 +386,12 @@ header .main_container .menu a {
 }
 #your_business .business_wrapper .your_business_right p {
   max-width: 549px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.5);
   font-family: "TT Norms Pro", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 135%;
-  opacity: 0.5;
   margin-bottom: 40px;
 }
 #your_business .business_wrapper .your_business_right .business_btns {
@@ -475,14 +473,12 @@ header .main_container .menu a {
 }
 #payments .payments_wrapper .payments_right p {
   max-width: 675px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.5);
   font-family: "TT Norms Pro", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 135%;
-  /* 29.7px */
-  opacity: 0.5;
 }
 
 #connect {
@@ -509,14 +505,12 @@ header .main_container .menu a {
 }
 #connect .connect_wrapper .connect_left p {
   max-width: 675px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.5);
   font-family: "TT Norms Pro", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 135%;
-  /* 29.7px */
-  opacity: 0.5;
   margin-bottom: 60px;
 }
 #connect .connect_wrapper .connect_left .connect_btn {
