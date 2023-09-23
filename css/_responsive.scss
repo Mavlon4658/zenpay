@@ -1,5 +1,5 @@
 @media (max-width: 1450px) {
-    #your_business {
+    #technologies {
         .business_wrapper {
             .your_business_left {
                 width: calc(100% - 644px);
@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 1250px) {
-    #our_solutions {
+    #solutions {
         .card_wrapper {
             .cards {
                 flex-wrap: wrap;
@@ -79,7 +79,7 @@
         }
     }
 
-    #your_business {
+    #technologies {
         .business_wrapper {
             flex-direction: column-reverse;
 
@@ -136,7 +136,7 @@
         }
     }
 
-    #connect {
+    #connection {
         .connect_wrapper {
             flex-direction: column;
 
@@ -193,7 +193,7 @@
 }
 
 @media (max-width: 950px) {
-    #our_solutions {
+    #solutions {
         .card_wrapper {
             .cards {
                 flex-direction: column;
@@ -318,7 +318,7 @@
         }
     }
 
-    #our_solutions {
+    #solutions {
         .card_wrapper {
             .bg_mobile {
                 display: none;
@@ -326,7 +326,7 @@
         }
     }
 
-    #your_business {
+    #technologies {
         .business_wrapper {
             .your_business_left {
                 .sm {
@@ -540,7 +540,7 @@
         }
     }
 
-    #our_solutions {
+    #solutions {
         margin-bottom: 80px;
 
         .card_wrapper {
@@ -595,7 +595,7 @@
         }
     }
 
-    #your_business {
+    #technologies {
         .business_wrapper {
             .your_business_left {
                 img {
@@ -652,7 +652,7 @@
         }
     }
 
-    #connect {
+    #connection {
         .connect_wrapper {
             gap: 40px;
 
@@ -830,7 +830,7 @@
         }
     }
 
-    #our_solutions {
+    #solutions {
         .card_wrapper {
             .title {
                 span {
@@ -949,7 +949,7 @@
         }
     }
 
-    #our_solutions {
+    #solutions {
         .main_container {
             max-width: calc(100% - 30px);
             padding-left: 0;
@@ -999,7 +999,7 @@
         }
     }
 
-    #your_business {
+    #technologies {
         .main_container {
             width: calc(100% - 30px);
             padding-left: 0;
@@ -1063,7 +1063,7 @@
         }
     }
 
-    #connect {
+    #connection {
         .main_container {
             max-width: calc(100% - 30px);
             padding-left: 0;
@@ -1173,7 +1173,7 @@
 }
 
 @media (min-width: 450px) {
-    #your_business {
+    #technologies {
         .business_wrapper {
             .your_business_left {
                 .mobile {
@@ -1185,7 +1185,7 @@
 }
 
 @media (max-width: 450px) {
-    #your_business {
+    #technologies {
         .business_wrapper {
             .your_business_left {
                 .sm {

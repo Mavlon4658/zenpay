@@ -243,34 +243,34 @@ header .main_container .menu a {
   height: 212px;
 }
 
-#our_solutions {
+#solutions {
   margin-bottom: 120px;
 }
-#our_solutions .card_wrapper {
+#solutions .card_wrapper {
   border-radius: 30px;
   background: #18181B;
   position: relative;
   padding: 0px 60px 60px;
   overflow: hidden;
 }
-#our_solutions .bg_1 {
+#solutions .bg_1 {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 230px;
 }
-#our_solutions .bg_2 {
+#solutions .bg_2 {
   position: absolute;
   right: 0;
   top: 0;
   width: 260px;
 }
-#our_solutions .title {
+#solutions .title {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
 }
-#our_solutions .title span {
+#solutions .title span {
   position: relative;
   color: #FFF;
   text-align: center;
@@ -282,7 +282,7 @@ header .main_container .menu a {
   padding: 30px 10px;
   background-color: #0D0D0D;
 }
-#our_solutions .title span img {
+#solutions .title span img {
   position: absolute;
   width: 88px;
   height: 100%;
@@ -290,31 +290,31 @@ header .main_container .menu a {
      object-fit: cover;
   top: 0;
 }
-#our_solutions .title span .title_bg_1 {
+#solutions .title span .title_bg_1 {
   left: 0;
   transform: translateX(-100%);
 }
-#our_solutions .title span .title_bg_2 {
+#solutions .title span .title_bg_2 {
   right: 0;
   transform: translateX(100%);
 }
-#our_solutions .cards {
+#solutions .cards {
   position: relative;
   display: flex;
   align-self: stretch;
   justify-content: space-between;
 }
-#our_solutions .cards .card_item {
+#solutions .cards .card_item {
   width: 348px;
   text-align: center;
   padding-bottom: 24px;
 }
-#our_solutions .cards .card_item img {
+#solutions .cards .card_item img {
   width: 88px;
   height: 88px;
   margin-bottom: 30px;
 }
-#our_solutions .cards .card_item .card_title {
+#solutions .cards .card_item .card_title {
   color: #FFF;
   text-align: center;
   font-family: "Ubuntu", sans-serif;
@@ -324,7 +324,7 @@ header .main_container .menu a {
   line-height: 125%;
   margin-bottom: 20px;
 }
-#our_solutions .cards .card_item .card_description {
+#solutions .cards .card_item .card_description {
   color: #FFF;
   text-align: center;
   font-family: "TT Norms Pro", sans-serif;
@@ -334,25 +334,25 @@ header .main_container .menu a {
   line-height: normal;
   opacity: 0.5;
 }
-#our_solutions .cards .card_line {
+#solutions .cards .card_line {
   width: 2px;
   border-radius: 2px;
   opacity: 0.1;
   background: #FFF;
 }
 
-#your_business .business_wrapper {
+#technologies .business_wrapper {
   display: flex;
   gap: 60px;
 }
-#your_business .business_wrapper .your_business_left img {
+#technologies .business_wrapper .your_business_left img {
   max-width: 766px;
   height: 621px;
 }
-#your_business .business_wrapper .your_business_right {
+#technologies .business_wrapper .your_business_right {
   margin-top: 60px;
 }
-#your_business .business_wrapper .your_business_right span {
+#technologies .business_wrapper .your_business_right span {
   padding-left: 28px;
   display: flex;
   align-items: center;
@@ -365,7 +365,7 @@ header .main_container .menu a {
   line-height: 115%;
   margin-bottom: 12px;
 }
-#your_business .business_wrapper .your_business_right span::after {
+#technologies .business_wrapper .your_business_right span::after {
   content: "";
   position: absolute;
   left: 0;
@@ -374,7 +374,7 @@ header .main_container .menu a {
   background-color: #B0F305;
   border-radius: 10px;
 }
-#your_business .business_wrapper .your_business_right h2 {
+#technologies .business_wrapper .your_business_right h2 {
   max-width: 549px;
   color: #FFF;
   font-family: "TT Norms Pro", sans-serif;
@@ -384,7 +384,7 @@ header .main_container .menu a {
   line-height: 125%;
   margin-bottom: 27px;
 }
-#your_business .business_wrapper .your_business_right p {
+#technologies .business_wrapper .your_business_right p {
   max-width: 549px;
   color: rgba(255, 255, 255, 0.5);
   font-family: "TT Norms Pro", sans-serif;
@@ -394,12 +394,12 @@ header .main_container .menu a {
   line-height: 135%;
   margin-bottom: 40px;
 }
-#your_business .business_wrapper .your_business_right .business_btns {
+#technologies .business_wrapper .your_business_right .business_btns {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-#your_business .business_wrapper .your_business_right .business_btns .business_btn {
+#technologies .business_wrapper .your_business_right .business_btns .business_btn {
   border-radius: 300px;
   background: var(--gray-18181-b, #18181B);
   width: 280px;
@@ -414,7 +414,7 @@ header .main_container .menu a {
   font-weight: 500;
   line-height: 115%;
 }
-#your_business .business_wrapper .your_business_right .business_btns .business_btn img {
+#technologies .business_wrapper .your_business_right .business_btns .business_btn img {
   margin-right: 10px;
   width: 28px;
   height: 28px;
@@ -481,18 +481,18 @@ header .main_container .menu a {
   line-height: 135%;
 }
 
-#connect {
+#connection {
   margin-top: 120px;
 }
-#connect .connect_wrapper {
+#connection .connect_wrapper {
   display: flex;
   gap: 60px;
   align-items: flex-start;
 }
-#connect .connect_wrapper .connect_left {
+#connection .connect_wrapper .connect_left {
   margin-top: 29px;
 }
-#connect .connect_wrapper .connect_left h2 {
+#connection .connect_wrapper .connect_left h2 {
   max-width: 675px;
   color: #FFF;
   font-family: "TT Norms Pro", sans-serif;
@@ -503,7 +503,7 @@ header .main_container .menu a {
   /* 60px */
   margin-bottom: 25px;
 }
-#connect .connect_wrapper .connect_left p {
+#connection .connect_wrapper .connect_left p {
   max-width: 675px;
   color: rgba(255, 255, 255, 0.5);
   font-family: "TT Norms Pro", sans-serif;
@@ -513,7 +513,7 @@ header .main_container .menu a {
   line-height: 135%;
   margin-bottom: 60px;
 }
-#connect .connect_wrapper .connect_left .connect_btn {
+#connection .connect_wrapper .connect_left .connect_btn {
   width: 360px;
   height: 60px;
   color: #0D0D0D;
@@ -527,23 +527,23 @@ header .main_container .menu a {
   background: var(--accent-b-0-f-305, #B0F305);
   box-shadow: 6px 6px 20px 0px rgba(176, 243, 5, 0.08);
 }
-#connect .connect_wrapper .connect_right {
+#connection .connect_wrapper .connect_right {
   display: flex;
   gap: 30px;
 }
-#connect .connect_wrapper .connect_right .connect_card {
+#connection .connect_wrapper .connect_right .connect_card {
   width: 375px;
   padding: 30px;
   text-align: center;
   border-radius: 16px;
   background: var(--gray-18181-b, #18181B);
 }
-#connect .connect_wrapper .connect_right .connect_card img {
+#connection .connect_wrapper .connect_right .connect_card img {
   width: 88px;
   height: 88px;
   margin-bottom: 30px;
 }
-#connect .connect_wrapper .connect_right .connect_card h2 {
+#connection .connect_wrapper .connect_right .connect_card h2 {
   color: #FFF;
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
@@ -553,7 +553,7 @@ header .main_container .menu a {
   /* 30px */
   margin-bottom: 20px;
 }
-#connect .connect_wrapper .connect_right .connect_card p {
+#connection .connect_wrapper .connect_right .connect_card p {
   color: #FFF;
   font-family: "TT Norms Pro", sans-serif;
   font-size: 18px;
@@ -731,14 +731,14 @@ footer .footer_wrapper .footer_bottom p {
 }
 
 @media (max-width: 1450px) {
-  #your_business .business_wrapper .your_business_left {
+  #technologies .business_wrapper .your_business_left {
     width: calc(100% - 644px);
   }
-  #your_business .business_wrapper .your_business_left img {
+  #technologies .business_wrapper .your_business_left img {
     width: 100%;
     height: auto;
   }
-  #your_business .business_wrapper .your_business_right {
+  #technologies .business_wrapper .your_business_right {
     width: 584px;
   }
 }
@@ -775,48 +775,48 @@ footer .footer_wrapper .footer_bottom p {
   }
 }
 @media (max-width: 1250px) {
-  #our_solutions .card_wrapper .cards {
+  #solutions .card_wrapper .cards {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
   }
-  #our_solutions .card_wrapper .cards .card_line_2 {
+  #solutions .card_wrapper .cards .card_line_2 {
     width: 100%;
     height: 1px;
   }
-  #your_business .business_wrapper {
+  #technologies .business_wrapper {
     flex-direction: column-reverse;
   }
-  #your_business .business_wrapper .your_business_left {
+  #technologies .business_wrapper .your_business_left {
     width: 100%;
     text-align: center;
   }
-  #your_business .business_wrapper .your_business_left img {
+  #technologies .business_wrapper .your_business_left img {
     width: auto;
     height: 505px;
   }
-  #your_business .business_wrapper .your_business_right {
+  #technologies .business_wrapper .your_business_right {
     width: 100%;
     text-align: center;
   }
-  #your_business .business_wrapper .your_business_right span {
+  #technologies .business_wrapper .your_business_right span {
     display: inline-flex;
     width: auto;
     margin: o auto;
   }
-  #your_business .business_wrapper .your_business_right h2 {
+  #technologies .business_wrapper .your_business_right h2 {
     max-width: 100%;
     text-align: center;
   }
-  #your_business .business_wrapper .your_business_right p {
+  #technologies .business_wrapper .your_business_right p {
     max-width: 100%;
     text-align: center;
   }
-  #your_business .business_wrapper .your_business_right .business_btns {
+  #technologies .business_wrapper .your_business_right .business_btns {
     width: 100%;
     gap: 24px;
   }
-  #your_business .business_wrapper .your_business_right .business_btns .business_btn {
+  #technologies .business_wrapper .your_business_right .business_btns .business_btn {
     width: calc(50% - 12px);
   }
   #payments .payments_wrapper {
@@ -826,32 +826,32 @@ footer .footer_wrapper .footer_bottom p {
     width: 500px;
     margin-right: 30px;
   }
-  #connect .connect_wrapper {
+  #connection .connect_wrapper {
     flex-direction: column;
   }
-  #connect .connect_wrapper .connect_left {
+  #connection .connect_wrapper .connect_left {
     width: 100%;
     text-align: center;
   }
-  #connect .connect_wrapper .connect_left h2 {
+  #connection .connect_wrapper .connect_left h2 {
     max-width: 100%;
     text-align: center;
   }
-  #connect .connect_wrapper .connect_left p {
+  #connection .connect_wrapper .connect_left p {
     max-width: 100%;
     text-align: center;
   }
-  #connect .connect_wrapper .connect_right {
+  #connection .connect_wrapper .connect_right {
     width: 100%;
     gap: 20px;
   }
-  #connect .connect_wrapper .connect_right .connect_card {
+  #connection .connect_wrapper .connect_right .connect_card {
     width: calc(50% - 10px);
   }
-  #connect .connect_wrapper .connect_right .connect_card h2 {
+  #connection .connect_wrapper .connect_right .connect_card h2 {
     max-width: 100%;
   }
-  #connect .connect_wrapper .connect_right .connect_card p {
+  #connection .connect_wrapper .connect_right .connect_card p {
     max-width: 100%;
   }
 }
@@ -865,15 +865,15 @@ footer .footer_wrapper .footer_bottom p {
   }
 }
 @media (max-width: 950px) {
-  #our_solutions .card_wrapper .cards {
+  #solutions .card_wrapper .cards {
     flex-direction: column;
     align-items: center;
   }
-  #our_solutions .card_wrapper .cards .card_line {
+  #solutions .card_wrapper .cards .card_line {
     width: 100%;
     height: 1px;
   }
-  #our_solutions .card_wrapper .cards .card_item {
+  #solutions .card_wrapper .cards .card_item {
     width: 100%;
   }
   footer .footer_wrapper {
@@ -951,10 +951,10 @@ footer .footer_wrapper .footer_bottom p {
   header .mobile_menu {
     display: none;
   }
-  #our_solutions .card_wrapper .bg_mobile {
+  #solutions .card_wrapper .bg_mobile {
     display: none;
   }
-  #your_business .business_wrapper .your_business_left .sm {
+  #technologies .business_wrapper .your_business_left .sm {
     display: none;
   }
 }
@@ -1121,124 +1121,124 @@ footer .footer_wrapper .footer_bottom p {
   #home .home_right .home_card_4 {
     order: 4;
   }
-  #our_solutions {
+  #solutions {
     margin-bottom: 80px;
   }
-  #our_solutions .card_wrapper {
+  #solutions .card_wrapper {
     padding: 0px 30px 30px;
     border-radius: 20px;
   }
-  #our_solutions .card_wrapper .bg_1,
-  #our_solutions .card_wrapper .bg_2 {
+  #solutions .card_wrapper .bg_1,
+  #solutions .card_wrapper .bg_2 {
     display: none;
   }
-  #our_solutions .card_wrapper .bg_mobile {
+  #solutions .card_wrapper .bg_mobile {
     position: absolute;
     left: 0;
     top: 0;
     height: 255px;
   }
-  #our_solutions .card_wrapper .title {
+  #solutions .card_wrapper .title {
     margin-bottom: 30px;
   }
-  #our_solutions .card_wrapper .title span {
+  #solutions .card_wrapper .title span {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
   }
-  #our_solutions .card_wrapper .cards .card_item img {
+  #solutions .card_wrapper .cards .card_item img {
     margin-bottom: 20px;
   }
-  #our_solutions .card_wrapper .cards .card_item .card_title {
+  #solutions .card_wrapper .cards .card_item .card_title {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 20px;
   }
-  #our_solutions .card_wrapper .cards .card_item .card_desription {
+  #solutions .card_wrapper .cards .card_item .card_desription {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
-  #your_business .business_wrapper .your_business_left img {
+  #technologies .business_wrapper .your_business_left img {
     display: none;
   }
-  #your_business .business_wrapper .your_business_left .sm {
+  #technologies .business_wrapper .your_business_left .sm {
     display: block;
     width: 100%;
     height: auto;
   }
-  #your_business .business_wrapper .your_business_right span {
+  #technologies .business_wrapper .your_business_right span {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 115%;
     margin-bottom: 12px;
   }
-  #your_business .business_wrapper .your_business_right h2 {
+  #technologies .business_wrapper .your_business_right h2 {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 30px;
   }
-  #your_business .business_wrapper .your_business_right p {
+  #technologies .business_wrapper .your_business_right p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 135%;
     margin-bottom: 30px;
   }
-  #your_business .business_wrapper .your_business_right .business_btns .business_btn {
+  #technologies .business_wrapper .your_business_right .business_btns .business_btn {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 115%;
   }
-  #your_business .business_wrapper .your_business_right .business_btns img {
+  #technologies .business_wrapper .your_business_right .business_btns img {
     margin-right: 10px;
     width: 20px;
     height: 20px;
   }
-  #connect .connect_wrapper {
+  #connection .connect_wrapper {
     gap: 40px;
   }
-  #connect .connect_wrapper .connect_left h2 {
+  #connection .connect_wrapper .connect_left h2 {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 25px;
   }
-  #connect .connect_wrapper .connect_left p {
+  #connection .connect_wrapper .connect_left p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 135%;
     margin-bottom: 30px;
   }
-  #connect .connect_wrapper .connect_right {
+  #connection .connect_wrapper .connect_right {
     align-items: stretch;
   }
-  #connect .connect_wrapper .connect_right .connect_card {
+  #connection .connect_wrapper .connect_right .connect_card {
     padding: 20px;
   }
-  #connect .connect_wrapper .connect_right .connect_card img {
+  #connection .connect_wrapper .connect_right .connect_card img {
     width: 99px;
     height: 88px;
     margin-bottom: 20px;
   }
-  #connect .connect_wrapper .connect_right .connect_card h2 {
+  #connection .connect_wrapper .connect_right .connect_card h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 20px;
   }
-  #connect .connect_wrapper .connect_right .connect_card p {
+  #connection .connect_wrapper .connect_right .connect_card p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1336,7 +1336,7 @@ footer .footer_wrapper .footer_bottom p {
   #home .home_left h1 .mobile {
     display: none;
   }
-  #our_solutions .card_wrapper .title span br {
+  #solutions .card_wrapper .title span br {
     display: none;
   }
 }
@@ -1423,78 +1423,78 @@ footer .footer_wrapper .footer_bottom p {
   #home .home_right .home_right_card {
     width: calc(50% - 4.635px);
   }
-  #our_solutions .main_container {
+  #solutions .main_container {
     max-width: calc(100% - 30px);
     padding-left: 0;
     padding-right: 0;
   }
-  #our_solutions .card_wrapper {
+  #solutions .card_wrapper {
     padding: 0px 15px 30px;
   }
-  #our_solutions .card_wrapper .title span {
+  #solutions .card_wrapper .title span {
     padding: 10px 15px;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
   }
-  #our_solutions .card_wrapper .cards {
+  #solutions .card_wrapper .cards {
     gap: 30px;
   }
-  #our_solutions .card_wrapper .cards .card_item {
+  #solutions .card_wrapper .cards .card_item {
     padding-bottom: 0;
   }
-  #our_solutions .card_wrapper .cards .card_item img {
+  #solutions .card_wrapper .cards .card_item img {
     width: 64px;
     height: 64px;
   }
-  #our_solutions .card_wrapper .cards .card_item .card_title {
+  #solutions .card_wrapper .cards .card_item .card_title {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 15px;
   }
-  #our_solutions .card_wrapper .cards .card_item .card_desription {
+  #solutions .card_wrapper .cards .card_item .card_desription {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
-  #your_business .main_container {
+  #technologies .main_container {
     width: calc(100% - 30px);
     padding-left: 0;
     padding-right: 0;
   }
-  #your_business .business_wrapper {
+  #technologies .business_wrapper {
     gap: 40px;
   }
-  #your_business .business_wrapper .your_business_right span {
+  #technologies .business_wrapper .your_business_right span {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 115%;
     margin-bottom: 12px;
   }
-  #your_business .business_wrapper .your_business_right h2 {
+  #technologies .business_wrapper .your_business_right h2 {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 30px;
   }
-  #your_business .business_wrapper .your_business_right p {
+  #technologies .business_wrapper .your_business_right p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 135%;
     margin-bottom: 30px;
   }
-  #your_business .business_wrapper .your_business_right .business_btns {
+  #technologies .business_wrapper .your_business_right .business_btns {
     flex-direction: column;
     gap: 20px;
   }
-  #your_business .business_wrapper .your_business_right .business_btns .business_btn {
+  #technologies .business_wrapper .your_business_right .business_btns .business_btn {
     width: 100%;
     padding: 18px 21px;
     font-size: 16px;
@@ -1502,7 +1502,7 @@ footer .footer_wrapper .footer_bottom p {
     font-weight: 500;
     line-height: 115%;
   }
-  #your_business .business_wrapper .your_business_right .business_btns .business_btn img {
+  #technologies .business_wrapper .your_business_right .business_btns .business_btn img {
     margin-right: 10px;
   }
   #payments .main_container {
@@ -1510,50 +1510,50 @@ footer .footer_wrapper .footer_bottom p {
     padding-left: 0;
     padding-right: 0;
   }
-  #connect .main_container {
+  #connection .main_container {
     max-width: calc(100% - 30px);
     padding-left: 0;
     padding-right: 0;
   }
-  #connect .connect_wrapper {
+  #connection .connect_wrapper {
     gap: 40px;
   }
-  #connect .connect_wrapper .connect_left h2 {
+  #connection .connect_wrapper .connect_left h2 {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 20px;
   }
-  #connect .connect_wrapper .connect_left p {
+  #connection .connect_wrapper .connect_left p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 135%;
     margin-bottom: 30px;
   }
-  #connect .connect_wrapper .connect_right {
+  #connection .connect_wrapper .connect_right {
     flex-direction: column;
     gap: 20px;
   }
-  #connect .connect_wrapper .connect_right .connect_card {
+  #connection .connect_wrapper .connect_right .connect_card {
     width: 100%;
     padding: 20px 15px;
     border-radius: 16px;
   }
-  #connect .connect_wrapper .connect_right .connect_card img {
+  #connection .connect_wrapper .connect_right .connect_card img {
     width: 64px;
     height: 64px;
     margin-bottom: 20px;
   }
-  #connect .connect_wrapper .connect_right .connect_card h2 {
+  #connection .connect_wrapper .connect_right .connect_card h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     margin-bottom: 15px;
   }
-  #connect .connect_wrapper .connect_right .connect_card p {
+  #connection .connect_wrapper .connect_right .connect_card p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1589,15 +1589,15 @@ footer .footer_wrapper .footer_bottom p {
   }
 }
 @media (min-width: 450px) {
-  #your_business .business_wrapper .your_business_left .mobile {
+  #technologies .business_wrapper .your_business_left .mobile {
     display: none;
   }
 }
 @media (max-width: 450px) {
-  #your_business .business_wrapper .your_business_left .sm {
+  #technologies .business_wrapper .your_business_left .sm {
     display: none;
   }
-  #your_business .business_wrapper .your_business_left .mobile {
+  #technologies .business_wrapper .your_business_left .mobile {
     display: block;
     width: 100%;
     height: auto;
